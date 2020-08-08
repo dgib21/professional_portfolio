@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* Instructs the browser to ignore padding in the overall width*/
+    box-sizing: border-box;
+  }
+
+
+header {
+
+ 
+background-color: black; 
+padding: 30px 30px;  
+display: flex;
+justify-content: space-between; 
+flex-wrap: wrap; 
+position: sticky; 
+top: 0; 
+
+}
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+
+header h1 {
+
+font-weight: bold; 
+font-size: 36px; 
+margin: 0; 
+text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+header a {
+
+    /* Text Decoration - You can underline text,strike through, or overline styles*/  
+  text-decoration: underline;
+  color: lightblue;
+}
+
+
+header nav {
+
+    margin: 7px 0; 
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    list-style: none; 
+    
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+  /* viewport width is the actual window size thats our unit of measurement*/
+    font-size: 1.55vw;
+    /* text shadow */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  header nav ul li a:hover {
+    background: #fce138;
+    color: #024e76;
+    border-radius: 15px;
+    text-shadow: none;
+  }
