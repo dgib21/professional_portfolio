@@ -14,8 +14,7 @@ padding: 30px 30px;
 display: flex;
 justify-content: space-between; 
 flex-wrap: wrap; 
-position: sticky; 
-top: 0; 
+
 
 }
 
@@ -71,3 +70,42 @@ header nav ul {
     border-radius: 15px;
     text-shadow: none;
   }
+
+section {
+
+    padding: 250px; 
+}
+
+
+  /* Hero Style Start */
+
+  .hero {
+    
+    background-image: url("../images/bballbackground.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    flex-direction: row;
+    background-attachment: fixed;
+    position: relative;
+
+  }
+
+  .hero h2 {
+
+    color: black; 
+    font-size: 100px;
+    text-align: right;
+    position: absolute;
+    bottom: 8px; 
+    right: 16px; 
+  
+
+  }
+
+  
+
+  /* Hero Style End */
