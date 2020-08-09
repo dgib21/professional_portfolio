@@ -5,7 +5,7 @@
     box-sizing: border-box;
   }
 
-
+/* styling header */
 header {
 
  
@@ -18,12 +18,15 @@ flex-wrap: wrap;
 
 }
 
+/* styling body */
+
 body {
 
     font-family: Arial, Helvetica, sans-serif; 
     background-color: lightcyan;
 }
 
+/* styling h1 element of header and added a text-shadow but the black background makes it not show */
 
 header h1 {
 
@@ -31,22 +34,27 @@ font-weight: bold;
 font-size: 36px; 
 margin: 0; 
 text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+text-decoration: none;
 
 }
 
+/* styling header elements */
 header a {
 
-    /* Text Decoration - You can underline text,strike through, or overline styles*/  
-  text-decoration: underline;
+    /* Underlining the header text*/  
   color: lightblue;
   vertical-align: 150%;
 
 }
 
 
+
+
 header nav {
 
     margin: 7px 0; 
+    text-decoration: underline;
+
 
 }
 
