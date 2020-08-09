@@ -21,6 +21,7 @@ flex-wrap: wrap;
 body {
 
     font-family: Arial, Helvetica, sans-serif; 
+    background-color: lightcyan;
 }
 
 
@@ -38,6 +39,8 @@ header a {
     /* Text Decoration - You can underline text,strike through, or overline styles*/  
   text-decoration: underline;
   color: lightblue;
+  vertical-align: 150%;
+
 }
 
 
@@ -65,7 +68,7 @@ header nav ul {
   }
 
   header nav ul li a:hover {
-    background: #fce138;
+    background: teal;
     color: #024e76;
     border-radius: 15px;
     text-shadow: none;
@@ -73,8 +76,10 @@ header nav ul {
 
 section {
 
-    padding: 250px; 
+    padding: 125px; 
 }
+
+
 
 
   /* Hero Style Start */
@@ -84,6 +89,7 @@ section {
     background-image: url("../images/bballbackground.png");
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -102,10 +108,121 @@ section {
     position: absolute;
     bottom: 8px; 
     right: 16px; 
-  
+
 
   }
 
-  
+
+  .intro-about-me p {
+
+    color: black;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 0.5rem 1rem;
+
+  }
+
+
+  .section-title {
+
+    font-size: 48px;
+    color: black;
+    border-right: 3px solid; 
+    float: left;
+    /* setting the margin on the about me, work, and contact me */
+    margin: 0 15px 35px 50px;
+    padding: 0 50px 20px 0px;
+    width: 35%;
+    position: static; 
+
+
+  }
+
+  .primary-border {
+
+    border-color: black;
+    padding-right: 50px; 
+  }
+
+  .flex-row {
+
+    padding: 50px 50px 20px 0px;
+
+    
+  }
 
   /* Hero Style End */
+
+ .footer {
+
+    align-content: flex-end;
+ }
+ 
+  .footer li {
+
+  
+  display: inline;
+  justify-content: center;
+  align-items: right;
+  list-style: none;
+  text-align: right; 
+  }
+
+  .grid-container {
+    display: grid;
+    justify-content: center;
+    align-items: right;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    }
+    
+    .div1 {
+        display: flex;
+        justify-content: right;
+        border: 5px solid rgba(0, 0, 0, 0.2);
+        margin: 5px auto;
+        border-radius: 5px;
+        font-size: 35px;
+        background-color: aquamarine;
+        width: 50%;
+        
+      }
+
+      .div2 {
+        display: flex;
+        justify-content: right;
+        border: 5px solid rgba(0, 0, 0, 0.2);
+        margin: 5px auto;
+        border-radius: 5px;
+        font-size: 35px;
+        background-color: aquamarine;
+        width: 25%;
+        
+      }
+
+      .div3 {
+        display: flex;
+        justify-content: right;
+        border: 5px solid rgba(0, 0, 0, 0.2);
+        margin: 5px auto;
+        border-radius: 5px;
+        font-size: 35px;
+        background-color: aquamarine;
+        width: 50%;
+        
+      }
+
+      .div4 {
+        display: flex;
+        justify-content: right;
+        border: 5px solid rgba(0, 0, 0, 0.2);
+        margin: 5px auto;
+        border-radius: 5px;
+        font-size: 35px;
+        background-color: aquamarine;
+        width: 25%;
+        
+      }
+
