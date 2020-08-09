@@ -7,4 +7,8 @@ This was our second assignment in the UT Coding Bootcamp.  Students are suppose 
 1. Use the Acceptance Criteria as a guide for how you will plan deadlines, sketch, and code your portfolio.
 ![Alt text](/assets/images/AcceptanceCriteria.png?raw=true "Acceptance Criteria Image")
 
-2. Ensure that your work meets the Acceptance Criteria and the full list of grading requirements below.
+2. Ensure that your work meets the Acceptance Criteria and the full list of grading requirements below.  Grading requirements not attached as thats the universities information.  
+
+# Finished Product
+
+Here is the [Deployed Application Link](https://dgib21.github.io/professional_portfolio/) for my assignment. 
