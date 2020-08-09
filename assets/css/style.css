@@ -173,19 +173,16 @@ section {
     align-items: right;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+ 
 
     }
     
     .div1 {
         display: flex;
         justify-content: right;
-        border: 5px solid rgba(0, 0, 0, 0.2);
         margin: 5px auto;
         border-radius: 5px;
         font-size: 35px;
-        background-color: aquamarine;
         width: 50%;
         
       }
@@ -193,11 +190,9 @@ section {
       .div2 {
         display: flex;
         justify-content: right;
-        border: 5px solid rgba(0, 0, 0, 0.2);
         margin: 5px auto;
         border-radius: 5px;
         font-size: 35px;
-        background-color: aquamarine;
         width: 25%;
         
       }
@@ -205,11 +200,9 @@ section {
       .div3 {
         display: flex;
         justify-content: right;
-        border: 5px solid rgba(0, 0, 0, 0.2);
         margin: 5px auto;
         border-radius: 5px;
         font-size: 35px;
-        background-color: aquamarine;
         width: 50%;
         
       }
@@ -217,12 +210,11 @@ section {
       .div4 {
         display: flex;
         justify-content: right;
-        border: 5px solid rgba(0, 0, 0, 0.2);
         margin: 5px auto;
         border-radius: 5px;
         font-size: 35px;
-        background-color: aquamarine;
         width: 25%;
         
       }
 
+     
