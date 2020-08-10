@@ -41,7 +41,6 @@ text-decoration: none;
 /* styling header elements */
 header a {
 
-    /* Underlining the header text*/  
   color: lightblue;
   vertical-align: 150%;
 
@@ -49,7 +48,7 @@ header a {
 
 
 
-
+/* underlining the header nav element text */
 header nav {
 
     margin: 7px 0; 
@@ -57,7 +56,7 @@ header nav {
 
 
 }
-
+ /* aligning the header text to the right with some space between it */
 header nav ul {
     display: flex;
     justify-content: space-between;
@@ -69,12 +68,12 @@ header nav ul {
   header nav ul li a {
     padding: 10px 15px;
     font-weight: lighter;
-  /* viewport width is the actual window size thats our unit of measurement*/
-    font-size: 1.55vw;
     /* text shadow */
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
+
+  /* css to highlight the header when hovering over it */
   header nav ul li a:hover {
     background: teal;
     color: #024e76;
@@ -90,7 +89,7 @@ section {
 
 
 
-  /* Hero Style Start */
+  /* Hero Style Start - image is in the css in the hero image */
 
   .hero {
     
@@ -108,6 +107,7 @@ section {
 
   }
 
+  /* css to get the label propery in the bottom right hand corner */
   .hero h2 {
 
     color: black; 
@@ -120,7 +120,7 @@ section {
 
   }
 
-
+/* css to style the paragraph in the about me section */
   .intro-about-me p {
 
     color: black;
@@ -129,7 +129,7 @@ section {
 
   }
 
-
+/* styling all the sections  */
   .section-title {
 
     font-size: 48px;
@@ -144,6 +144,7 @@ section {
 
 
   }
+/* creating the line thats infront of the diffrenet sections */
 
   .primary-border {
 
@@ -159,6 +160,8 @@ section {
   }
 
   /* Hero Style End */
+
+/* aligning the footer sections */
 
  .footer {
 
@@ -225,13 +228,51 @@ section {
         
       }
 
+      /* media queriess for smaller windows  */
+
       @media screen and (max-width: 768px) {
 
         .grid-container {
           grid-template-columns: 1fr 1fr;
         }
+
+        .div1 {
+
+            grid-column: 1; 
+        }
+
+        .div2 {
+
+            grid-column: 1; 
+        }
+
+        .div3 {
+
+            grid-column: 1; 
+        }
+
+        .div4 {
+
+            grid-column: 1; 
+        }
+
+        .section-title {
+
+            font-size: 48px;
+            color: black;
+            border-right: 3px solid; 
+            float: left;
+            /* setting the margin on the about me, work, and contact me */
+            margin: 0 15px 35px 50px;
+            padding: 0 50px 20px 0px;
+            position: static; 
+        
+        
+          }
+       
+
       
-      
+    }
       
       /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
       @media screen and (max-width: 575px) {
@@ -248,7 +289,7 @@ section {
         }
       
     
-        
+    }
       
       
 
