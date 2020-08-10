@@ -225,4 +225,31 @@ section {
         
       }
 
+      @media screen and (max-width: 768px) {
+
+        .grid-container {
+          grid-template-columns: 1fr 1fr;
+        }
+      
+      
+      
+      /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+      @media screen and (max-width: 575px) {
+      
+      
+        .section-title {
+          width: 100%;
+        }
+      
+    
+      
+        .grid-container {
+          flex: 0 100%;
+        }
+      
+    
+        
+      
+      
+
      
